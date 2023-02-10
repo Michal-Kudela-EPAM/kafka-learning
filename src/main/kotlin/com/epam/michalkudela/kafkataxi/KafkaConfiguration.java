@@ -88,8 +88,6 @@ public class KafkaConfiguration {
         return factory;
     }
 
-
-
     @Bean
     public ConsumerFactory<String, VehiclePosition> consumerFactory(
             KafkaProperties properties
